@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        android:icon="@drawable/add"
+        android:visible="true"
+        android:title="Settings"
+        app:showAsAction="always"
+        >
+    <menu>
+        <item
+            android:id="@+id/menu_load1"
+            android:orderInCategory="200"
+            android:icon="@drawable/aim"
+            app:showAsAction="always"
+            android:title="Load"/>
+
+        <item
+            android:id="@+id/menu_load12"
+            android:orderInCategory="200"
+            android:icon="@drawable/aim"
+            app:showAsAction="always"
+            android:title="Load"/>
+    </menu>
+
+</item>
+
+</menu>

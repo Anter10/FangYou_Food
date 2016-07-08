@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+     <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/edit"
+                android:icon="@drawable/tools"
+                android:title="设置" />
+
+            <item
+                android:id="@+id/dian_cais"
+                android:icon="@drawable/add"
+                android:title="点菜" />
+        </menu>
+     </item>
+
+     <item android:title="">
+
+         <menu>
+             <item
+                 android:id="@+id/xiao_liang"
+                 android:icon="@drawable/printer"
+                 android:title="销量" />
+             <item
+                 android:id="@+id/net_ding_dan"
+                 android:icon="@drawable/globe"
+                 android:title="网络订单" />
+
+             <item
+                 android:id="@+id/local_ding_dan"
+                 android:icon="@drawable/aim"
+                 android:title="店内订单" />
+
+             <item
+                 android:id="@+id/give_up"
+                 android:icon="@drawable/delete"
+                 android:title="废弃订单" />
+         </menu>
+     </item>
+
+
+
+
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="Share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Send" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>

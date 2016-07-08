@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">饭管家</string>
+    <string name="fanguanjia">饭馆家</string>
+    <string name="please_input_phoneNumber">请输入手机号</string>
+    <string name="please_input_email_verification_code">请输入邮箱收到的验证码</string>
+    <string name="please_input_phone_verification_code">请输入手机收到的验证码</string>
+    <string name="please_input_password">请输入密码</string>
+    <string name="ok_input_message">确定</string>
+    <string name="register_user">注册</string>
+    <string name="phone_register_user">手机注册</string>
+    <string name="email_register_user">邮箱注册</string>
+    <string name="send_verification_code">发送验证码</string>
+    <string name="error_phone_number">"输入的电话号码错误"</string>
+    <string name="please_input_email_number">请输入邮箱地址</string>
+    <string name="please_input_phone_number">请输入手机号码</string>
+    <string name="input_phone_id">input_phone_id</string>
+    <string name="title_activity_email_number_register">EmailNumberRegisterActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_edit">EditActivity</string>
+</resources>
