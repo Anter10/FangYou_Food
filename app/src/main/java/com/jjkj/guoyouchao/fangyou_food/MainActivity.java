@@ -12,6 +12,7 @@ import android.os.*;
 import org.json.*;
 
 import com.jjkj.guoyouchao.fangyou_food.Activitys.AllActivityBase;
+import com.jjkj.guoyouchao.fangyou_food.Activitys.FgjMainActivity;
 import com.jjkj.guoyouchao.fangyou_food.Activitys.FindPasswordActivity;
 import com.jjkj.guoyouchao.fangyou_food.Activitys.EmailLoginActivity;
 import com.jjkj.guoyouchao.fangyou_food.Activitys.EmailNumberRegisterActivity;
@@ -145,8 +146,9 @@ public class MainActivity extends AllActivityBase {
     // 登陆成功
     public void loginSuccess() throws IOException {
 
-        Intent mainIntent = new Intent(this.getApplicationContext(),Main2Activity.class);
+        Intent mainIntent = new Intent(this.getApplicationContext(),FgjMainActivity.class);
         startActivity(mainIntent);
+        this.finish();
     }
 
     public void more(){

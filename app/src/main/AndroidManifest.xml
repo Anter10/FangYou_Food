@@ -27,7 +27,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".Activitys.PhoneNumberRegisterActivity" />
@@ -36,12 +36,13 @@
         <activity android:name=".Activitys.FindPasswordActivity" />
         <activity android:name=".Activitys.AllActivityBase" />
         <activity
-            android:name=".Activitys.Main2Activity"
-            android:label="@string/title_activity_main2"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".Activitys.dummy.EditActivity"
             android:label="@string/title_activity_edit"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Activitys.FgjMainActivity"
+            android:label="@string/title_activity_fgj_main"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

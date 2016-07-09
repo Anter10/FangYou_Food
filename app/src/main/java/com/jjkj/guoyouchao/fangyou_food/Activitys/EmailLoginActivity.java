@@ -168,7 +168,7 @@ public class EmailLoginActivity extends AllActivityBase {
     // 登陆成功
     public void loginSuccess() throws IOException{
 
-        Intent mainIntent = new Intent(this.getApplicationContext(),Main2Activity.class);
+        Intent mainIntent = new Intent(this.getApplicationContext(),FgjMainActivity.class);
         startActivity(mainIntent);
     }
 
